@@ -28,6 +28,8 @@ func main() {
 		},
 	}
 
+	d := sync.Map{}
+
 	//for i := 0; i < 5; i++ {
 	//	calcPool.Put(calcPool.New())
 	//}
